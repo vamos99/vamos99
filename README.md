@@ -18,14 +18,6 @@ Data engineering and analytics engineering learner focused on SQL-backed analysi
 
 SQL analytics, data quality checks, dashboarding, CI-backed workflows, and the foundations of orchestration/MLOps.
 
-```mermaid
-flowchart LR
-  A[(Data)] --> B[SQL models]
-  B --> C[Dashboards]
-  C --> D[Decision support]
-  B --> E[Tests + CI]
-```
-
 ## Selected Work
 
 | Project | What it shows | Stack |
