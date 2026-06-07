@@ -1,45 +1,39 @@
+<div align="center">
+
 # Halil Kiyak
 
-I am building a portfolio around data engineering, analytics engineering, and MLOps foundations. My current focus is turning raw datasets and application data into reproducible pipelines, SQL-backed analysis layers, and decision-ready dashboards.
+Data engineering and analytics engineering learner focused on SQL-backed analysis, reproducible checks, and practical dashboards.
 
-## Focus Areas
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img alt="SQL" src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white">
+  <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white">
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
+</p>
 
-- Analytics engineering: SQL models, KPI definitions, executive dashboards
-- Data engineering foundations: ingestion, validation, documentation, repeatable checks
-- MLOps foundations: environment hygiene, CI checks, project structure, reproducible workflows
-- Product-aware analytics: making technical outputs understandable for non-technical users
+</div>
 
-## Selected Projects
+## Current Focus
 
-### ISKI Risk Prioritization DSS
+SQL analytics, data quality checks, dashboarding, CI-backed workflows, and the foundations of orchestration/MLOps.
 
-Decision support project for neighborhood-level risk prioritization. Recent work adds an executive Streamlit dashboard, SQLite analytics views, reusable summary logic, tests, CI, and project workflow documentation.
+```mermaid
+flowchart LR
+  A[(Data)] --> B[SQL models]
+  B --> C[Dashboards]
+  C --> D[Decision support]
+  B --> E[Tests + CI]
+```
 
-Repository: [iski-risk-prioritization-dss](https://github.com/vamos99/iski-risk-prioritization-dss)
+## Selected Work
 
-### Olist Analytics Dashboard
+| Project | What it shows | Stack |
+| --- | --- | --- |
+| [ISKI Risk Prioritization DSS](https://github.com/vamos99/iski-risk-prioritization-dss) | Risk prioritization, executive dashboard, SQLite analytics views | Python, Streamlit, SQL |
+| [Olist Analytics Dashboard](https://github.com/vamos99/Zero2End-ML-Bootcamp) | E-commerce analytics, business-facing dashboard, SQL view layer | Python, Streamlit, SQL |
+| [SaySay](https://github.com/vamos99/SaySay) | Safer service config, CI, env hygiene for a team web app | Next.js, FastAPI, Supabase |
 
-E-commerce analytics project built around the Brazilian Olist dataset. Recent work adds a manager-facing Streamlit dashboard, SQL views for business analysis, repository tests, CI, and lightweight project management docs.
+## How I Work
 
-Repository: [Zero2End-ML-Bootcamp](https://github.com/vamos99/Zero2End-ML-Bootcamp)
-
-### SaySay
-
-Bootcamp team project using Next.js, FastAPI, Supabase, and Gemini. Recent work focuses on safer service configuration, server-side API handling for AI calls, environment examples, CI, and deployment handoff notes.
-
-Repository: [SaySay](https://github.com/vamos99/SaySay)
-
-## Tools I Am Working With
-
-Python, SQL, pandas, Streamlit, FastAPI, Next.js, TypeScript, Supabase, GitHub Actions, GitHub Projects, SQLite, PostgreSQL.
-
-## Working Style
-
-- Branch and pull request workflow instead of direct main pushes
-- CI checks before merge
-- Clear README, runbook, and project workflow notes
-- Practical improvements over over-engineered rewrites
-
-## Current Direction
-
-I am improving my depth in database design, SQL analytics, orchestration, data quality checks, and deployment practices for data products.
+Branch-based changes, pull requests, passing checks, short documentation, and pragmatic improvements over large rewrites.
